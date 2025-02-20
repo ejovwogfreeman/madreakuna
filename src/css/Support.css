@@ -67,4 +67,9 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.support form button:hover {
+  transform: scale(1.03);
 }
