@@ -3,8 +3,7 @@ import iphone from "../assets/iphone16.png";
 import "../css/Header.css";
 import Navbar from "../components/Navbar";
 import background from "../assets/background.png";
-import playstore from "../assets/playstore.jpg";
-import appstore from "../assets/appstore.jpg";
+import PlayAppStore from "./PlayAppStore";
 
 const Header = () => {
   return (
@@ -27,14 +26,7 @@ const Header = () => {
             <br />
             financieras
           </p>
-          <div className="play-app-store">
-            <a href="">
-              <img src={playstore} alt="" />
-            </a>
-            <a href="">
-              <img src={appstore} alt="" />
-            </a>
-          </div>
+          <PlayAppStore />
         </div>
         <div className="img">
           <img src={iphone} alt="" />

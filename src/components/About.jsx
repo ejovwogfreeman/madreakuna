@@ -1,16 +1,22 @@
 import React from "react";
-import smilinglady from "../assets/smilinglady";
-import goldpic from "../assets/goldpic";
+import smilinglady from "../assets/smilinglady.png";
+import goldpic from "../assets/goldpic.png";
+import "../css/About.css";
+import SocialMedia from "./SocialMedia";
 
 const About = () => {
   return (
-    <div className="about container">
-      <div className="about-top">
+    <div className="about">
+      <div className="about-top container">
         <div className="contents">
-          <h1>About Us</h1>
-          <p>Get to know about Madre Akuna</p>
+          <div>
+            <h1>About Us</h1>
+            <p>Get to know about Madre Akuna</p>
+          </div>
 
-          <h3>Madre Akuna</h3>
+          <h3 className="text-primary" style={{ marginTop: "20px" }}>
+            Madre Akuna
+          </h3>
 
           <p>
             Acercar el mundo digital a las personas con descapacidead y cno
@@ -24,13 +30,14 @@ const About = () => {
             with disabilities, ensuring that digital assets and blockchain
             technology are <br /> are inclusive, easy to use, and empowering.
           </p>
-          <div>social media icons</div>
+          <div style={{ marginTop: "20px" }}></div>
+          <SocialMedia />
         </div>
         <div className="img">
           <img src={smilinglady} alt="" />
         </div>
       </div>
-      <div className="about-bottom">
+      <div className="about-bottom container">
         <div className="contents">
           <h3>Our Mission</h3>
           <p>

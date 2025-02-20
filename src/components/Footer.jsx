@@ -34,9 +34,7 @@ const Footer = () => {
             <a href="#contact">Contact</a>
             <a href="#support">Support</a>
           </div>
-          <div className="socials">
-            <SocialMedia />
-          </div>
+          <SocialMedia />
         </div>
       </div>
       <div className="sub-footer">
