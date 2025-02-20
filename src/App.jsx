@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Support from "./pages/support";
+import Support from "./pages/Support";
 
 function App() {
   return (
