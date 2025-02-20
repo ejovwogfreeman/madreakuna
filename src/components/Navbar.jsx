@@ -49,9 +49,9 @@ const Navbar = () => {
         <a href="#contact" onClick={() => setMenuOpen(false)}>
           Contact
         </a>
-        <a href="support" onClick={() => setMenuOpen(false)}>
+        <Link to="support" onClick={() => setMenuOpen(false)}>
           Support
-        </a>
+        </Link>
       </div>
       <div className="flag">
         <Flag />

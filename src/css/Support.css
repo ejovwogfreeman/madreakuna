@@ -1,12 +1,70 @@
 .support {
   background-color: var(--black);
   color: var(--white);
-  padding-top: 200px;
+  padding-top: 120px;
   padding-bottom: 100px;
 }
 
-.support form {
-  background: url("../assets/form.png");
-  height: 500px;
+.support-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.support-text h1 {
+  margin-bottom: 10px;
+}
+
+.support .form-container {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
+    url("../assets/form.png");
   background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.support form {
+  font-size: 18px;
+}
+
+.support form h3 {
+  margin-bottom: 20px;
+}
+
+.support form input {
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: var(--white);
+  border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.support form textarea {
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: var(--white);
+  border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+}
+.support form button {
+  border: none;
+  outline: none;
+  background-color: var(--primary);
+  width: 100%;
+  color: var(--white);
+  border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
