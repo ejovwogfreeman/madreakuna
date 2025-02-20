@@ -7,7 +7,7 @@ import PlayAppStore from "./PlayAppStore";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <img src={background} alt="" className="bg-img" />
       <Navbar />
       <div className="header-contents container">
@@ -28,7 +28,7 @@ const Header = () => {
           </p>
           <PlayAppStore />
         </div>
-        <div className="img">
+        <div className="img bounce-animation">
           <img src={iphone} alt="" />
         </div>
       </div>

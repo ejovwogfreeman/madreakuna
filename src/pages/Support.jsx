@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../css/Support.css";
 
-const Contact = () => {
+const Support = () => {
   return (
-    <div className="container">
+    <div className="">
       <Navbar />
-      <div className="contact">
+      <div className="container support">
         <h1>Support</h1>
         <p>Do you need something? Feel free to write to us for support.</p>
 
@@ -20,4 +21,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Support;

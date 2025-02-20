@@ -14,7 +14,12 @@ const Review = () => {
           <li>Current Market Trend</li>
         </ul>
         <div class="img">
-          <img src={iphone16pro} alt="" width="300px" />
+          <img
+            src={iphone16pro}
+            alt=""
+            width="300px"
+            className="bounce-animation"
+          />
         </div>
         <ul className="last">
           <h2>Easy to Use</h2>

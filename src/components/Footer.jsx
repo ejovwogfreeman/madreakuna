@@ -3,6 +3,8 @@ import logo from "../assets/footerlogo.png";
 import madreakuna from "../assets/madreakuna.png";
 import "../css/Footer.css";
 import SocialMedia from "./SocialMedia";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
       <div className="container main-footer">
         <div className="left">
           <img src={logo} alt="" />
-          <div className="texts">
+          <div className="texts" id="contact">
             <h3>Direccion Postal:</h3>
             <p>
               Urb. El Conquistador calle 6 H-61 | Trujillo Alto, P.r. <br />
@@ -22,8 +24,13 @@ const Footer = () => {
               Urb. El Conquistador calle 6 H-61 | Trujillo Alto, P.r. <br />
               00976
             </p>
-            <span>
-              <span>+1 (939) 759-5400</span>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <FaPhoneAlt />
+              <span style={{ marginLeft: "5px" }}>+1 (939) 759-5400</span>
+            </span>
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <IoMdMail />
+              <span style={{ marginLeft: "5px" }}>support@madreakuna.com</span>
             </span>
           </div>
         </div>

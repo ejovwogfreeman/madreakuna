@@ -1,50 +1,40 @@
-// import React from "react";
-// import logo from "../assets/logo.png";
-// import Flag from "./Flag";
-// import "../css/Navbar.css";
-// import { CiMenuFries } from "react-icons/ci";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="nav-container">
-//       <div className="img">
-//         <img src={logo} alt="" />
-//       </div>
-//       <span className="menu-icon">
-//         <CiMenuFries />
-//       </span>
-//       <div className="links">
-//         <a href="#home">Home</a>
-//         <a href="#about">About Us</a>
-//         <a href="#contact">Contact</a>
-//         <a href="#support">Support</a>
-//       </div>
-//       <div className="flag">
-//         <Flag />
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import Flag from "./Flag";
 import "../css/Navbar.css";
 import { CiMenuFries } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="nav-container">
+    <nav className={`nav-container ${isScrolled ? "navbar-dark" : ""}`}>
       <div className="img">
-        <img src={logo} alt="Logo" />
+        <Link to="/">
+          <img src={logo} alt="Logo" />
+        </Link>
       </div>
       <span className="menu-icon" onClick={toggleMenu}>
         <CiMenuFries />
@@ -59,7 +49,7 @@ const Navbar = () => {
         <a href="#contact" onClick={() => setMenuOpen(false)}>
           Contact
         </a>
-        <a href="#support" onClick={() => setMenuOpen(false)}>
+        <a href="support" onClick={() => setMenuOpen(false)}>
           Support
         </a>
       </div>

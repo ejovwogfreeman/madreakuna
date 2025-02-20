@@ -6,7 +6,7 @@ import SocialMedia from "./SocialMedia";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-top container">
         <div className="contents">
           <div>
@@ -68,7 +68,7 @@ const About = () => {
           </p>
         </div>
         <div className="img">
-          <img src={goldpic} alt="" />
+          <img src={goldpic} alt="" className="bounce-animation" />
         </div>
       </div>
     </div>
