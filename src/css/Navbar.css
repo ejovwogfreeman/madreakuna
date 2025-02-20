@@ -50,6 +50,7 @@ nav .links a:hover {
     display: block;
     cursor: pointer;
     font-size: 25px;
+    color: var(--white);
   }
   /* nav .links {
     display: none;
