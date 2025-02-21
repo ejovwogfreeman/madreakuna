@@ -34,13 +34,16 @@ const Support = () => {
     setResponseMessage("");
 
     try {
-      const response = await fetch("http://localhost:8000/support", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://madreakuna-api.onrender.com/support",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       const data = await response.json();
       if (response.ok) {
