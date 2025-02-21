@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import "../css/Support.css";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Support = () => {
   const [formData, setFormData] = useState({
@@ -61,6 +62,7 @@ const Support = () => {
 
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <div className="container support">
         <div className="support-text">

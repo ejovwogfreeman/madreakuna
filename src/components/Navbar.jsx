@@ -40,13 +40,13 @@ const Navbar = () => {
         <CiMenuFries />
       </span>
       <div className={`links ${menuOpen ? "open" : ""}`}>
-        <a href="#home" onClick={() => setMenuOpen(false)}>
+        <a href="/#home" onClick={() => setMenuOpen(false)}>
           Home
         </a>
-        <a href="#about" onClick={() => setMenuOpen(false)}>
+        <a href="/#about" onClick={() => setMenuOpen(false)}>
           About Us
         </a>
-        <a href="#contact" onClick={() => setMenuOpen(false)}>
+        <a href="/#contact" onClick={() => setMenuOpen(false)}>
           Contact
         </a>
         <Link to="support" onClick={() => setMenuOpen(false)}>
