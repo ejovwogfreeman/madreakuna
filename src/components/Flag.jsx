@@ -5,7 +5,7 @@ import "../css/Flag.css";
 export default function Flag() {
   const [select, setSelect] = useState("NG");
   const onSelect = (code) => setSelect(code);
-  console.log("SELECT", select);
+  // console.log("SELECT", select);
   return (
     <div>
       <ReactFlagsSelect

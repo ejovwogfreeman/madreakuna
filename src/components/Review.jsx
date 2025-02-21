@@ -13,7 +13,7 @@ const Review = () => {
           <li>Beautiful User Interface</li>
           <li>Current Market Trend</li>
         </ul>
-        <div class="img">
+        <div className="img">
           <img
             src={iphone16pro}
             alt=""
