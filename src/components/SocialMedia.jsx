@@ -12,22 +12,28 @@ import { AiFillTikTok } from "react-icons/ai";
 const SocialMedia = () => {
   return (
     <div className="socials">
-      <a href="">
+      <a href="https://www.facebook.com/madrefajona" target="_blank">
         <FaSquareFacebook />
       </a>
-      <a href="">
+      <a
+        href="https://www.instagram.com/madrefajonapr?igsh=ZG1jczFxczlrbms2"
+        target="_blank"
+      >
         <FaSquareInstagram />
       </a>
-      <a href="">
+      {/* <a href="">
         <FaLinkedin />
-      </a>
-      <a href="">
+      </a> */}
+      <a href="https://x.com/MFajona" target="_blank">
         <FaSquareXTwitter />
       </a>
-      <a href="">
+      {/* <a href="">
         <AiFillTikTok />
-      </a>
-      <a href="">
+      </a> */}
+      <a
+        href="https://youtube.com/@madrefajona1324?si=L-V7rjdWHzy-zWLC"
+        target="_blank"
+      >
         <FaYoutube />
       </a>
     </div>

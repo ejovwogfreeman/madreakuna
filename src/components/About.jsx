@@ -28,7 +28,7 @@ const About = () => {
             <br /> everyone. Thats why we created a crypto platform also
             designed for people <br />
             with disabilities, ensuring that digital assets and blockchain
-            technology are <br /> are inclusive, easy to use, and empowering.
+            technology are <br /> inclusive, easy to use, and empowering.
           </p>
           <div style={{ marginTop: "20px" }}></div>
           <SocialMedia />
@@ -43,7 +43,7 @@ const About = () => {
           <p>
             Our mission is to remove barriers in the crypto space by offering a
             user-friendly,
-            <br /> accessible, and secre platform that accomodates diverse
+            <br /> accessible, and secure platform that accomodates diverse
             needs. With features <br />
             like voice commands, screen reader compatibility, customizable
             interface and <br /> simplified transactions. We make it easier for
