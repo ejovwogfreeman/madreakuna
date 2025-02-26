@@ -51,7 +51,7 @@ const About = () => {
             <strong>Accessibility without compromise:</strong> Our app
             incorporates screen readers, voice commands, contrast adjustments
             and simplified navigation options, ensuring that everyone,
-            regardless of their visual, hearing or motor abilities, can manage
+            regardless of their visual, hearing or motion abilities, can manage
             their finances with complete autonomy. In addition, the inclusive
             design allows for a fluid experience for people with cognitive
             diversity, ensuring that transactions are clear and hassle-free.
