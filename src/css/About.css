@@ -36,6 +36,8 @@
 
 .about-top .contents {
   flex: 2;
+  padding-right: 30px;
+  text-align: justify
 }
 
 .about-top .img {
@@ -79,6 +81,7 @@
   }
   .about-top .contents {
     flex: 1;
+    padding-right: 0px;
   }
   .about-top .img {
     flex: 1;

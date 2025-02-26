@@ -13,12 +13,50 @@ const About = () => {
             <h1>About Us</h1>
             <p>Get to know about Madre Akuna</p>
           </div>
-
           <h3 className="text-primary" style={{ marginTop: "20px" }}>
             Madre Akuna
           </h3>
-
           <p>
+            <strong>Finanzas sin Barreras:</strong> La Revolución Digital para
+            la Inclusión Financiera En un mundo cada vez más digitalizado, la
+            inclusión financiera debe ser una realidad para todos. Nuestra
+            aplicación financiera digital está diseñada especialmente para ser
+            totalmente accesible y abrir las puertas del universo de las
+            criptomonedas a las personas con discapacidad. Con una interfaz
+            intuitiva, herramientas de accesibilidad avanzadas y soporte
+            personalizado, brindamos la oportunidad de administrar, invertir y
+            hacer transacciones de manera segura y sin limitaciones.
+          </p>
+          <p>
+            <strong>Barriers:</strong> The Digital Revolution for Financial
+            Inclusion In an increasingly digitalized world, financial inclusion
+            must be a reality for everyone. Our digital financial application is
+            specially designed to be fully accessible and open the doors of the
+            cryptocurrency universe to people with disabilities. With an
+            intuitive interface, advanced accessibility tools and personalized
+            support, we provide the opportunity to manage, invest and make
+            transactions safely without limitations.
+          </p>
+          <p>
+            <strong>Accesibilidad sin compromisos:</strong> Nuestra aplicación
+            incorpora lectores de pantalla, comandos de voz, ajustes de
+            contraste y opciones de navegación simplificadas, garantizando que
+            todas las personas, sin importar su capacidad visual, auditiva o
+            motriz, puedan manejar sus finanzas con total autonomía. Además, el
+            diseño inclusivo permite una experiencia fluida para personas con
+            diversidad cognitiva, asegurando que las transacciones sean claras y
+            sin complicaciones.
+          </p>
+          <p>
+            <strong>Accessibility without compromise:</strong> Our app
+            incorporates screen readers, voice commands, contrast adjustments
+            and simplified navigation options, ensuring that everyone,
+            regardless of their visual, hearing or motor abilities, can manage
+            their finances with complete autonomy. In addition, the inclusive
+            design allows for a fluid experience for people with cognitive
+            diversity, ensuring that transactions are clear and hassle-free.
+          </p>
+          {/* <p>
             Acceso al mundo digital a las personas con discapacidad para que
             <br />
             puedan acceder a las criptomonedas en esta era de la moneda digital
@@ -30,7 +68,7 @@ const About = () => {
             designed for people <br />
             with disabilities, ensuring that digital assets and blockchain
             technology are <br /> inclusive, easy to use, and empowering.
-          </p>
+          </p> */}
           <div style={{ marginTop: "20px" }}></div>
           <SocialMedia />
         </div>
