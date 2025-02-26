@@ -19,12 +19,13 @@ const About = () => {
           </h3>
 
           <p>
-            Acercar el mundo digital a las personas con descapacidead y cno
-            discapacidad <br /> para que puededn accedar a las crytomonedas en
-            esta era de la moneda <br /> digital y lambien practicar su uso.
+            Acceso al mundo digital a las personas con discapacidad para que
+            <br />
+            puedan acceder a las criptomonedas en esta era de la moneda digital
+            <br />y también practicar su uso.
           </p>
           <p>
-            At Madre Akuna, we believe financial freedom should be accessible to{" "}
+            At Madre Akuna, we believe financial freedom should be accessible to
             <br /> everyone. Thats why we created a crypto platform also
             designed for people <br />
             with disabilities, ensuring that digital assets and blockchain
@@ -39,32 +40,33 @@ const About = () => {
       </div>
       <div className="about-bottom container">
         <div className="contents">
-          <h3>Our Mission</h3>
+          <h3>Nuestra misión</h3>
           <p>
-            Our mission is to remove barriers in the crypto space by offering a
-            user-friendly,
-            <br /> accessible, and secure platform that accomodates diverse
-            needs. With features <br />
-            like voice commands, screen reader compatibility, customizable
-            interface and <br /> simplified transactions. We make it easier for
-            everyone to participte in the future of <br />
-            finance.
+            Nuestra misión es eliminar las barreras en el espacio criptográfico
+            al ofrecer una plataforma fácil de usar, accesible y segura que se
+            adapte a diversas necesidades. Con funciones como comandos de voz,
+            compatibilidad con lectores de pantalla, interfaz personalizable,
+            transacciones simplificadas facilitando la participación de todos en
+            el futuro de las finanzas.
           </p>
           <p>
-            Whether you're an experienced trader or just starting your crypto
-            journey, Madre <br />
-            Akuna provides the tools, resources, and support to help you
-            navigate the digital <br /> economy with confidence
+            Tanto si eres un operador experimentado como si recién estás
+            comenzando tu viaje en el mundo de las criptomonedas.
           </p>
           <p>
-            Join us as we build a more inclusive financial world because crypto
-            should be for <br />
-            everyone
+            Madre Akuna te brinda las herramientas, los recursos y el apoyo para
+            ayudarte a navegar por la economía digital de manera segura y en
+            confianza..
           </p>
-          <h3>Our Vision</h3>
           <p>
-            Our vision is to create a world of digital currency, where people
-            can trade assets <br /> and make investments fast and seamlessly
+            Únete a nosotros mientras construimos un mundo financiero más
+            inclusivo porque las criptomonedas, deben ser para todos.
+          </p>
+          <h3>Nuestra visión</h3>
+          <p>
+            Nuestra visión es crear un mundo de moneda digital, donde las
+            personas puedan intercambiar activos y realizar inversiones de
+            manera rápida y sin inconvenientes.
           </p>
         </div>
         <div className="img">

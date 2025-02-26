@@ -8,10 +8,10 @@ const Review = () => {
     <div className="review container">
       <div className="review-top">
         <ul className="first">
-          <h2>The App just for You</h2>
-          <li>Coin Market Overview</li>
-          <li>Beautiful User Interface</li>
-          <li>Current Market Trend</li>
+          <h2>La Aplicación Perfecta y Accesible</h2>
+          <li>Descripción general del mercado de monedas</li>
+          <li>Hermosa interfaz de usuario</li>
+          <li>Tendencia actual del mercado</li>
         </ul>
         <div className="img">
           <img
@@ -22,10 +22,10 @@ const Review = () => {
           />
         </div>
         <ul className="last">
-          <h2>Easy to Use</h2>
-          <li>Buy, Swap & Sell Crypto</li>
-          <li>Improved User experience</li>
-          <li>Crypto Watchlist</li>
+          <h2>Fácil de usar</h2>
+          <li>Compra, intercambia y vende criptomonedas</li>
+          <li>Experiencia de usuario mejorada</li>
+          <li>Lista de seguimiento de criptomonedas</li>
         </ul>
       </div>
       <div className="review-bottom">
