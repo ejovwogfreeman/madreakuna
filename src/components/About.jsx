@@ -17,6 +17,17 @@ const About = () => {
             Madre Akuna
           </h3>
           <p>
+            Acceso al mundo digital a las personas con discapacidad para que
+            puedan acceder a las criptomonedas en esta era de la moneda digital
+            y también practicar su uso.
+          </p>
+          <p>
+            At Madre Akuna, we believe financial freedom should be accessible to
+            everyone. Thats why we created a crypto platform also designed for
+            people with disabilities, ensuring that digital assets and
+            blockchain technology are inclusive, easy to use, and empowering.
+          </p>
+          <p>
             <strong>Finanzas sin Barreras:</strong> La Revolución Digital para
             la Inclusión Financiera En un mundo cada vez más digitalizado, la
             inclusión financiera debe ser una realidad para todos. Nuestra
@@ -56,19 +67,6 @@ const About = () => {
             design allows for a fluid experience for people with cognitive
             diversity, ensuring that transactions are clear and hassle-free.
           </p>
-          {/* <p>
-            Acceso al mundo digital a las personas con discapacidad para que
-            <br />
-            puedan acceder a las criptomonedas en esta era de la moneda digital
-            <br />y también practicar su uso.
-          </p>
-          <p>
-            At Madre Akuna, we believe financial freedom should be accessible to
-            <br /> everyone. Thats why we created a crypto platform also
-            designed for people <br />
-            with disabilities, ensuring that digital assets and blockchain
-            technology are <br /> inclusive, easy to use, and empowering.
-          </p> */}
           <div style={{ marginTop: "20px" }}></div>
           <SocialMedia />
         </div>

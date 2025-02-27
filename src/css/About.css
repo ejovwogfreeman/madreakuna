@@ -37,7 +37,7 @@
 .about-top .contents {
   flex: 2;
   padding-right: 30px;
-  text-align: justify
+  text-align: justify;
 }
 
 .about-top .img {
@@ -52,6 +52,7 @@
   padding-top: 80px;
   display: flex;
   align-items: center;
+  text-align: justify;
 }
 
 .about-bottom .contents {
