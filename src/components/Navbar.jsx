@@ -49,7 +49,7 @@ const Navbar = () => {
         <a href="/#contact" onClick={() => setMenuOpen(false)}>
           Contact
         </a>
-        <Link to="support" onClick={() => setMenuOpen(false)}>
+        <Link to="/support" onClick={() => setMenuOpen(false)}>
           Support
         </Link>
       </div>
